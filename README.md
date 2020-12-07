@@ -110,3 +110,35 @@ public class Test {
 5，indexOF()方法查找字符串中某一字符的查找
 
 运行截图：
+
+
+实验感想:
+通过本次实验进一步掌握了异常处理的使用方法，学会replace方法将字符串替换为空的方法，
+基本掌握字符串Sring的读和写入的方法，对于scanner的函数实例化更加理解，但在本次实验
+过程中仍出现很多的问题，通过互联网和询问同学的形式，逐一解决了问题，本次实验不仅
+磨练了我的耐心，也让我明白集思广益和团结互助的重要性，使我对Java的学习更有信心，
+利用互联网查找搜素有关string和stringbuffer的一些常用方法：
+
+
+    String类常用方法：
+    int length();求串长
+    int compareTo(String anotherString);对字符串内容按字典序进行大小比较
+    boolean equals(String anString); 比较两个字符串对象内容是否相等
+    boolean equalsIgnoreCase(String anString);忽略大小写比较字符串对象内容是否相等
+    int indexOF(int ch/String str);
+    在字符串中搜索字符或子串，返回字符或子串在String对象中从左边起首次出现的位置。如果没有出现，返回-1。
+    String replace(char oldChar,char newChar);将String对象中所有的oldChar字符替换为newChar，返回新串
+    String toString();返回当前字符串本身
+
+    StringBuffer类型
+    StringBuffer类对象是一个内容可以改变的字符串，可以减少由于少量字符插入空间分配的问题。
+    StringBuffer(int length);创建指定容量的空对象
+
+    StringBuffer类常用方法
+    int length();返回字符串长度
+    int capacity();返回缓冲区大小
+    viod setLength(int newLength);指定对象长度，对内容进行裁减
+    void setCharAt(int index,char ch);将参数index指定位置上的字符换成参数ch指定的字符
+    StringBuffer append(多种数据类型);将其他类型的数据添加到StringBuffer对象的尾部
+    String toString();
+   
